@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 SRC="$GITHUB_WORKSPACE/$1"
-DST="$GITHUB_WORKSPACE/$2.pdf"
+DST="$GITHUB_WORKSPACE/$2"
 
 mkdir -p $(dirname $DST)
 
