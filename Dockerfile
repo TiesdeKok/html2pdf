@@ -1,4 +1,4 @@
-FROM node:12.6-buster-slim
+FROM node:18-bullseye-slim
 
 RUN npm i -g chrome-headless-render-pdf
 
